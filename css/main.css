@@ -59,7 +59,7 @@ h1{
   margin: 3%;
 }
 
-.descarga_app{
+.fondo_amarillo{
   background-color: #f7b617;
   color: #FFF;
 
@@ -80,11 +80,27 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 13% 0%;
+  padding: 17% 0%;
   color: #FFF;
 }
 
 .btn-conduce{
   background-color: #f7b617;
   color: #FFF;
+}
+
+.tamano_input{
+  width: 30%;
+  background-color: #f7b617;
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+
+.tarifas{
+  padding: 1% 0 0% 12%;
+}
+
+iframe{
+  margin-top: -19%;
+  padding-bottom: 3%;
 }
