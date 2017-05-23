@@ -1,0 +1,75 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background: #FFF;
+  padding: 2% 5%;
+}
+
+li{
+  color: black;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FADE17;
+}
+
+#home{
+  background-image: url("../img/taxi.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 18% 0%;
+  color: #FFF;
+}
+.contenedor_formulario{
+   background-color: #f7b617;
+   height: 330px;
+   padding: 2%;
+
+ }
+
+h1{
+   font-size: 200%;
+ }
+
+.titulo_home{
+  text-align: left;
+
+ }
+.home_span{
+   font-size: 170%;
+ }
+
+.btn-home{
+  margin: 3%;
+ }
+
+.linea_home{
+  border: 1px solid white;
+  width: 30%;
+  display: inline-block;
+  margin: 3%;
+}
+
+.descarga_app{
+  background-color: #f7b617;
+  color: #FFF;
+
+}
+
+.borde_app{
+  border: 1px solid #FFF;
+  margin: 3% 15% 2% 0;
+}
+
+.borde_app p{
+  padding: 1%;
+}
