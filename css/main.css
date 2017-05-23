@@ -104,3 +104,25 @@ iframe{
   margin-top: -19%;
   padding-bottom: 3%;
 }
+
+footer{
+  background-color: #2E2D26;
+  color: #FFF;
+}
+
+ul{
+  display: inline-block;
+}
+.columna li{
+  list-style: none;
+  padding: 3%;
+
+
+}
+
+.columna a{
+  color: #FFF;
+}
+.iconos_footer{
+  display: inline-block;
+}
