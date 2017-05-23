@@ -58,3 +58,19 @@ h1{
   display: inline-block;
   margin: 3%;
 }
+
+.descarga_app{
+  background-color: #f7b617;
+  color: #FFF;
+
+}
+
+.borde_app{
+  border: 1px solid #FFF;
+  margin: 3% 15% 2% 0;
+}
+
+.borde_app p{
+  padding: 1%;
+}
+
