@@ -74,3 +74,17 @@ h1{
   padding: 1%;
 }
 
+#fondo_conduce{
+  background-image: url("../img/conduce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 13% 0%;
+  color: #FFF;
+}
+
+.btn-conduce{
+  background-color: #f7b617;
+  color: #FFF;
+}
