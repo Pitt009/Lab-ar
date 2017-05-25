@@ -132,3 +132,17 @@ ul{
   background-color: #FFF;
   margin-top: 3%;
 }
+ .modales{
+   background-color:#f7b617;
+ }
+.imagen_usuario{
+  background-color: white;
+  margin-left: 34%
+}
+
+.input_espacio{
+  padding: 3%;
+}
+ .input_espacio span{
+   margin: 3;
+ }
