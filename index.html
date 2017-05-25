@@ -13,17 +13,35 @@
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <img alt="Brand" src="img/logoForma.png">
+        <div class="navbar-header row">
+          <img alt="Brand" src="img/logoForma.png" class="col-md-12">
         </div>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right col-md-3">
             <li><a href="#viaja">Viaja</a></li>
             <li><a href="#fondo_conduce">Conduce</a></li>
-            <li><a href="#">Inicia Sesión</a></li>
+            <button type="button" class="btn-inicia btn btn btn-md" data-toggle="modal" data-target="#myModal">Iniciar Sesión</button>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <!--Modal iniciar sesion-->
+    <div class="modal fade modales" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="img/user.png" class="imagen_usuario col-md-3">
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Seccion home -->
     <section id="home">
         <div class="contenedor_formulario  col-md-offset-8">
