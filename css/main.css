@@ -1,4 +1,4 @@
-body {
+7body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -126,4 +126,9 @@ ul{
 .iconos_footer{
   display: inline-block;
   padding-top: 3%;
+}
+
+.btn-inicia{
+  background-color: #FFF;
+  margin-top: 3%;
 }
