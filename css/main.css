@@ -130,19 +130,19 @@ ul{
 
 .btn-inicia{
   background-color: #FFF;
-  margin-top: 3%;
+  margin-top: 5%;
 }
  .modales{
    background-color:#f7b617;
+   color: #FFF;
+   text-align: center;
+
  }
 .imagen_usuario{
-  background-color: white;
+  background-color: #FFF;
   margin-left: 34%
 }
 
 .input_espacio{
   padding: 3%;
 }
- .input_espacio span{
-   margin: 3;
- }
